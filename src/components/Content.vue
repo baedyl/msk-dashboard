@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute content grid grid-cols-1 xl:grid-cols-3 gap-10">
+  <div class="absolute top-24 md:left-48 sm:left-24 grid grid-cols-1 xl:grid-cols-3 gap-10">
     <div class="relative">
       <!-- Front side of the card -->
       <div class="box box01" v-if="frontVisible">
@@ -25,7 +25,7 @@
                   <pan-thumb :image="avatar" class="avatar" />
                 </div>
                 <div>
-                  <p class="text-left ml-4">
+                  <p class="text-left ml-4 uppercase">
                     <span class="content">PT NAME</span><br />
                     <span class="content-value">DIMITRI ALEXIOU</span>
                   </p>
@@ -127,7 +127,7 @@
                 <pan-thumb :image="avatar" class="avatar" />
               </div>
               <div>
-                <p class="text-left ml-4">
+                <p class="text-left ml-4 uppercase">
                   <span class="content">PT NAME</span><br />
                   <span class="content-value">DIMITRI ALEXIOU</span>
                 </p>
@@ -263,11 +263,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.content {
-  top: 100px;
-  left: 200px;
-}
-
 .card {
   min-width: 521px;
   &-booking {
