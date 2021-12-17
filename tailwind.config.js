@@ -13,8 +13,10 @@ module.exports = {
     colors: {
       'blue-dark': '#1a233f',
       'purple': '#6e1c80',
+      'purple-hover': '#b72687',
       'pink': '#de3182',
       'orange': '#f38b01',
+      'orange-hover': '#bc504a',
       'green': '#13ce66',
       'yellow': '#ffec03',
       'gray-dark': '#273444',
