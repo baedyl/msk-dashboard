@@ -55,7 +55,7 @@
             </div>
           </div>
           <button
-            class="flex card-btn w-107 h-39 rounded-b-md p-2 justify-center"
+            class="flex card-btn w-107 h-39 rounded-b-md p-2 justify-center hover:bg-purple-hover"
           >
             <DesktopLogo class="logo-white h-14" />
             <span class="flex-none pt-1 ml-2 font-bold text-white"
@@ -157,7 +157,7 @@
           </div>
         </div>
         <button
-          class="flex card-btn w-107 h-39 rounded-b-md p-2 justify-center"
+          class="flex card-btn w-107 h-39 rounded-b-md p-2 justify-center hover:bg-orange-hover"
         >
           <AccessLogo class="logo-white h-14" />
           <span class="flex-none pt-1 ml-2 font-bold text-white"
