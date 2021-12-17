@@ -5,9 +5,9 @@
       <div class="box box01" v-if="frontVisible">
         <div class="flex">
           <div
-            class="flex-1 bg-pink text-yellow text-left font-bold capitalize rounded-md pt-2 pl-4"
+            class="flex-1 bg-pink text-yellow text-left heading__title uppercase font-bold rounded-md pt-2 pl-4"
           >
-            <span class="">My booking</span>
+            <span>My booking</span>
           </div>
           <div class="flex-none bg-pink rounded-md w-10 h-10 ml-1">
             <CalendarLogo class="logo-yellow w-16 h-16 p-2" />
@@ -79,7 +79,7 @@
         </div>
         <div class="flex">
           <div
-            class="flex-1 bg-blue text-yellow text-left font-bold capitalize rounded-md pt-2 pl-4"
+            class="flex-1 bg-blue text-yellow text-left font-bold uppercase heading__title rounded-md pt-2 pl-4"
           >
             <span class="">My booking</span>
           </div>
@@ -107,7 +107,7 @@
       </div>
       <div class="flex">
         <div
-          class="flex-1 w-96 bg-orange text-yellow text-left font-bold capitalize rounded-md pt-2 pl-4"
+          class="flex-1 w-96 bg-orange text-yellow text-left font-bold uppercase heading__title rounded-md pt-2 pl-4"
         >
           <span>My booking</span>
         </div>
@@ -349,6 +349,11 @@ export default {
       margin-left: 32%;
       height: 251px;
     }
+  }
+  &__title {
+    font: normal normal 900 15px/18px SF Pro Display Bold;
+    letter-spacing: 0px;
+    opacity: 1;
   }
 }
 

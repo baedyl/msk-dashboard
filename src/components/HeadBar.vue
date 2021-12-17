@@ -5,7 +5,7 @@
     <div
       class="container-fluid w-full flex flex-wrap items-center justify-between px-6"
     >
-      <span class="md:ml-10 text-bold text-blue-dark">Dashboard</span>
+      <span class="md:ml-5 text-bold font-bold text-blue-dark">Dashboard</span>
 
       <!-- Right elements -->
       <div class="flex items-center relative">
