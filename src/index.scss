@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SFProDisplay"),
+    url(./styles/fonts/SFProDisplay-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: local("SFProDisplayBold"),
+    url(./styles/fonts/SFProDisplay-Heavy-1.ttf) format("truetype");
+}
