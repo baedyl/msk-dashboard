@@ -10,7 +10,7 @@
       class="flex items-center mt-4 md:mx-2 md:py-2 sm:py-0 sm:mx-auto rounded-md dark:bg-gray-700 dark:text-gray-200 relative"
       href="#"
     >
-      <DashboardLogo class="logo-white" />
+      <DashboardLogo class="logo-white sm:my-8 md:my-0" />
 
       <span
         class="mx-2 font-medium text-white text-sm sm:hidden md:block md:mt-1"
@@ -41,12 +41,12 @@
     </a>
 
     <a
-      class="flex items-center md:mx-2 sm:py-0 sm:mx-auto text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700"
+      class="flex items-center w-full md:px-2 md:my-2 sm:py-0 sm:mx-auto text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700"
       href="#"
     >
-      <CreateLogo class="logo-gray" />
+      <CreateLogo class="logo-gray sm:ml-5 md:ml-0 md:mr-2" />
       <span
-        class="break-all w-full font-medium text-gray text-sm sm:hidden md:block md:mt-1"
+        class="mx-1font-medium text-gray text-sm sm:hidden md:block md:mt-1"
         >Book a physio</span
       >
     </a>
@@ -96,7 +96,7 @@
     </a>
 
     <a
-      class="flex items-center md:mx-2 md:py-2 sm:py-0 sm:mx-auto transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700"
+      class="flex items-center md:mx-2 md:py-2 sm:py-8 sm:mx-auto transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700"
       href="#"
     >
       <LogoutLogo class="logo-gray" />
